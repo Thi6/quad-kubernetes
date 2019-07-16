@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: client
-        image: bobcrutchley/quad-client:latest
+        image: thi6/quad-client:latest
         ports:
         - containerPort: 3000
