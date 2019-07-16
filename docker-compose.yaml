@@ -16,12 +16,12 @@ services:
         - client
         - server
     server:
-      image: bobcrutchley/quad-server:latest
+      image: thi6/quad-server:latest
       build:
         context: ./server
         dockerfile: Dockerfile
     client:
-      image: bobcrutchley/quad-client:latest
+      image: thi6/quad-client:latest
       build:
         context: ./client
         dockerfile: Dockerfile
