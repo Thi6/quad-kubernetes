@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: thi6/quad-server:latest
+        image: thi6/server:latest
         ports:
         - containerPort: 8080
         env:
